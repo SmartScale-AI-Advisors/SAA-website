@@ -1,2 +1,2 @@
 # SAA-website
-repo for my website
+repo for the SmartScale AI Advisors website
