@@ -1,0 +1,55 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Nested git repos (and temp renames during backup)
+**/.git
+**/.git_bak
+**/.git.backup-hidden
+
+# Google Drive
+.~lock.*
+*.gdoc
+*.gsheet
+*.gslides
+*.gdraw
+*.gform
+
+# AI tool local configs (backed up separately or not needed)
+.claude/
+
+# Large media files (already on Google Drive, exceed GitHub 100MB limit)
+*.mp4
+*.webm
+*.mov
+*.avi
+*.mkv
+*.wav
+*.zip
+
+# Secrets & credentials (NEVER commit)
+.env
+.env.*
+*.pem
+*.key
+*service-account*.json
+*credentials*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# Editor/IDE
+*.swp
+*~
